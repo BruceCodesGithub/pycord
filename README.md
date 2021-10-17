@@ -13,5 +13,5 @@ Note: The OG V1 was corrupted and deleted, so this repo is new. The OG site will
 - Used emojis in some pages for aesthetics
 - Fixed mistakes in code examples
   - `Coding your first bot` - incorrect `wait_for` error handling 
-  - `Buttons` - has used `interaction.response.send` instead of `interaction.response.send_message`
+  - `Buttons` - had used `interaction.response.send` instead of `interaction.response.send_message`
   - `Slash Commands` - incorrect Option Type
