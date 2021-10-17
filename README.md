@@ -2,7 +2,7 @@
  Pycord Guide - a user-friendly guide to help you learn Pycord and use its features.
 
 ## Changes
-Note: The OG V1 was corrupted and deleted, so this repo is new. The OG site will be called v0 for this reason,
+Note: The OG V1 was corrupted and deleted, so this repo is new. The OG site will be called v0 for this reason.
 
 ### V1
 - New page added - `Cogs`
