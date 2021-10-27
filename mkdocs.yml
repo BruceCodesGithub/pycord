@@ -1,0 +1,78 @@
+site_name: Pycord Guide
+repo_name: Pycord
+repo_url: https://github.com/Pycord-Development/pycord/
+edit_uri: ""
+theme:
+  name: material
+  logo: assets/pycord.png
+  favicon: assets/pycord.png  
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  extra:
+    generator: false
+
+  features:
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - navigation.top
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - meta
+  - attr_list
+  - admonition
+  - pymdownx.tabbed
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+  
+
+extra_css:
+  - stylesheets\extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/pKJBsH5DBN
+      name: Official Discord Server
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/Pycord-Development/pycord/
+      name: Official Repository
+
+    - icon: material/book-check
+      link: https://pycord.readthedocs.io/en/master/index.html
+      name: Official Documentation
+
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/py-cord/
+      name: PyPi Package
+
+
+copyright: This guide is not affiliated with Pycord. Created by BruceDev#1798 on Discord.
