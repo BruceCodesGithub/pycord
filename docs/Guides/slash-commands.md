@@ -90,7 +90,7 @@ The above image is an example of a SubCommand group. Slash Command names cannot 
 A command group is a group of Slash Commands used for the same purpose. They can be useful certain times, as shown above. Now, lets learn how to create Command Groups.
 
 ```py
-afk = bot.command_group(
+afk = bot.create_group(
     name='afk', description='AFK related commands', guild_ids=[...]) # guild_ids will make this a guild specific slash command. The whole command group can either be global, or guild-specific
 
 @afk.command(name='set') #command instead of slash_command
@@ -111,9 +111,9 @@ async def remove(ctx):
 The below is an example of a SubCommand group within a SubCommand group. This is as far as SubCommand Groups go. Here's how you make one:
 
 ```py
-settings = bot.command_group(name="settings", description="Change Server Settings", guild_ids=[100000000000000000])
+settings = bot.create_group(name="settings", description="Change Server Settings", guild_ids=[100000000000000000])
 
-prefix = settings.command_group(name="prefix", description="Change the server prefix")
+prefix = settings.create_group(name="prefix", description="Change the server prefix")
 
 @prefix.command()
 async def set(ctx):
